@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de Exercícios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Lista de Exercícios</h1>
+
+    <div class="card">
+      <label for="exercicio">Selecione o Exercício:</label>
+      <select id="exercicio">
+        <option value="1">1 - Validação de Datas</option>
+        <option value="2">2 - Jogo de Adivinhação</option>
+        <option value="3">3 - Palavras Únicas</option>
+        <option value="4">4 - Fatorial Recursivo</option>
+        <option value="5">5 - Debounce</option>
+        <option value="6">6 - Memoization</option>
+        <option value="7">7 - Mapeamento e Ordenação</option>
+        <option value="8">8 - Agrupamento por Propriedade</option>
+        <option value="9">9 - Conversão Entre Formatos</option>
+      </select>
+      <button onclick="mostrarEnunciado()">Carregar Exercício</button>
+    </div>
+
+    <div id="enunciado" class="card"></div>
+    <div id="inputs" class="card"></div>
+    <div id="resultado" class="card output"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

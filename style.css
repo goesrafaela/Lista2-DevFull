@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 3px;
+  display: block;
+}
+
+select,
+input,
+button,
+textarea {
+  margin: 3px 0;
+  width: 100%;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.card {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.output {
+  white-space: pre-wrap;
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  background-color: white;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
