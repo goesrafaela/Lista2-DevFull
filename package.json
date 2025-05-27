@@ -1,0 +1,12 @@
+{
+  "name": "lista2",
+  "version": "1.0.0",
+  "description": "Lista 2 dos exercicios do curso de DevFull da +praTI",
+  "license": "ISC",
+  "author": "Rafaela Goes",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
